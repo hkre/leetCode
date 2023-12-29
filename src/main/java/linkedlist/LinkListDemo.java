@@ -20,7 +20,6 @@ public class LinkListDemo {
             //往新链表中插入数据
 
         }
-
+        return null;
     }
-}
 }

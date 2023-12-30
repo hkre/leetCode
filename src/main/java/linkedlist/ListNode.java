@@ -7,35 +7,15 @@ package main.java.linkedlist;
  @date 2023年12月29日 9:34
  */
 public class ListNode {
-    private int val;
-
-    private ListNode listNode;
+    // val用来存放链表中的数据
+    public int val = 0;
+    // next指向下一个结点
+    public ListNode next = null;
 
     public ListNode() {
     }
 
-    private ListNode(int val) {
-        this.val = val;
-    }
-
-    private ListNode(int val, ListNode next) {
-        this.val = val;
-        this.listNode = next;
-    }
-
-    public int getVal() {
-        return val;
-    }
-
-    public void setVal(int val) {
-        this.val = val;
-    }
-
-    public ListNode getListNode() {
-        return listNode;
-    }
-
-    public void setListNode(ListNode listNode) {
-        this.listNode = listNode;
+    public ListNode(int x) {
+        val = x;
     }
 }
